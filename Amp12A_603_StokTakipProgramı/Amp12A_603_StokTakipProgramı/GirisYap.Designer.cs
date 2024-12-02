@@ -32,8 +32,8 @@
             this.label1 = new System.Windows.Forms.Label();
             this.txtSifre = new System.Windows.Forms.TextBox();
             this.txtKullaniciAdi = new System.Windows.Forms.TextBox();
-            this.btnGiris = new System.Windows.Forms.Button();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.btnGiris = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -71,21 +71,6 @@
             this.txtKullaniciAdi.Size = new System.Drawing.Size(117, 20);
             this.txtKullaniciAdi.TabIndex = 5;
             // 
-            // btnGiris
-            // 
-            this.btnGiris.BackColor = System.Drawing.SystemColors.ScrollBar;
-            this.btnGiris.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.btnGiris.Image = global::Amp12A_603_StokTakipProgramı.Properties.Resources.login;
-            this.btnGiris.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.btnGiris.ImageKey = "login (1).png";
-            this.btnGiris.Location = new System.Drawing.Point(360, 230);
-            this.btnGiris.Name = "btnGiris";
-            this.btnGiris.Size = new System.Drawing.Size(99, 43);
-            this.btnGiris.TabIndex = 9;
-            this.btnGiris.Text = "Giriş";
-            this.btnGiris.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnGiris.UseVisualStyleBackColor = false;
-            // 
             // pictureBox1
             // 
             this.pictureBox1.Image = global::Amp12A_603_StokTakipProgramı.Properties.Resources.man__2_;
@@ -94,6 +79,20 @@
             this.pictureBox1.Size = new System.Drawing.Size(258, 260);
             this.pictureBox1.TabIndex = 0;
             this.pictureBox1.TabStop = false;
+            // 
+            // btnGiris
+            // 
+            this.btnGiris.BackColor = System.Drawing.SystemColors.ScrollBar;
+            this.btnGiris.Font = new System.Drawing.Font("Times New Roman", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.btnGiris.Image = global::Amp12A_603_StokTakipProgramı.Properties.Resources.login;
+            this.btnGiris.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.btnGiris.Location = new System.Drawing.Point(359, 228);
+            this.btnGiris.Name = "btnGiris";
+            this.btnGiris.Size = new System.Drawing.Size(135, 51);
+            this.btnGiris.TabIndex = 9;
+            this.btnGiris.Text = "Giriş Yap";
+            this.btnGiris.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnGiris.UseVisualStyleBackColor = false;
             // 
             // GirisYap
             // 
@@ -117,10 +116,10 @@
         #endregion
 
         private System.Windows.Forms.PictureBox pictureBox1;
-        private System.Windows.Forms.Button btnGiris;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.TextBox txtSifre;
         private System.Windows.Forms.TextBox txtKullaniciAdi;
+        private System.Windows.Forms.Button btnGiris;
     }
 }

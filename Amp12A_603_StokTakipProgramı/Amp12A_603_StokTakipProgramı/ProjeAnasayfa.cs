@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace Amp12A_603_StokTakipProgramı
 {
-    public partial class ProjeAnasayfası : Form
+    public partial class ProjeAnasayfa : Form
     {
-        public ProjeAnasayfası()
+        public ProjeAnasayfa()
         {
             InitializeComponent();
         }

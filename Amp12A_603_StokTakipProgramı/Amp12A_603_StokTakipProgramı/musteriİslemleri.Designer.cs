@@ -30,9 +30,6 @@
         {
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.txtFirmaAdi = new System.Windows.Forms.TextBox();
-            this.btnGuncelle = new System.Windows.Forms.Button();
-            this.btnSil = new System.Windows.Forms.Button();
-            this.btnEkle = new System.Windows.Forms.Button();
             this.btnYeni = new System.Windows.Forms.Button();
             this.label4 = new System.Windows.Forms.Label();
             this.txtMail = new System.Windows.Forms.TextBox();
@@ -44,16 +41,19 @@
             this.txtAdSoyad = new System.Windows.Forms.TextBox();
             this.label5 = new System.Windows.Forms.Label();
             this.grdMusteriler = new System.Windows.Forms.DataGridView();
+            this.btnGuncelle = new System.Windows.Forms.Button();
+            this.btnSil = new System.Windows.Forms.Button();
+            this.btnEkle = new System.Windows.Forms.Button();
             this.groupBox1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.grdMusteriler)).BeginInit();
             this.SuspendLayout();
             // 
             // groupBox1
             // 
-            this.groupBox1.Controls.Add(this.txtFirmaAdi);
             this.groupBox1.Controls.Add(this.btnGuncelle);
             this.groupBox1.Controls.Add(this.btnSil);
             this.groupBox1.Controls.Add(this.btnEkle);
+            this.groupBox1.Controls.Add(this.txtFirmaAdi);
             this.groupBox1.Controls.Add(this.btnYeni);
             this.groupBox1.Controls.Add(this.label4);
             this.groupBox1.Controls.Add(this.txtMail);
@@ -77,51 +77,6 @@
             this.txtFirmaAdi.Name = "txtFirmaAdi";
             this.txtFirmaAdi.Size = new System.Drawing.Size(118, 20);
             this.txtFirmaAdi.TabIndex = 14;
-            // 
-            // btnGuncelle
-            // 
-            this.btnGuncelle.BackColor = System.Drawing.SystemColors.ScrollBar;
-            this.btnGuncelle.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.btnGuncelle.Image = global::Amp12A_603_StokTakipProgramı.Properties.Resources.refresh;
-            this.btnGuncelle.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.btnGuncelle.ImageKey = "refresh.png";
-            this.btnGuncelle.Location = new System.Drawing.Point(566, 184);
-            this.btnGuncelle.Name = "btnGuncelle";
-            this.btnGuncelle.Size = new System.Drawing.Size(115, 39);
-            this.btnGuncelle.TabIndex = 13;
-            this.btnGuncelle.Text = "Güncelle";
-            this.btnGuncelle.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnGuncelle.UseVisualStyleBackColor = false;
-            // 
-            // btnSil
-            // 
-            this.btnSil.BackColor = System.Drawing.SystemColors.ScrollBar;
-            this.btnSil.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.btnSil.Image = global::Amp12A_603_StokTakipProgramı.Properties.Resources.bin;
-            this.btnSil.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.btnSil.ImageKey = "bin.png";
-            this.btnSil.Location = new System.Drawing.Point(455, 184);
-            this.btnSil.Name = "btnSil";
-            this.btnSil.Size = new System.Drawing.Size(94, 39);
-            this.btnSil.TabIndex = 12;
-            this.btnSil.Text = "Sil";
-            this.btnSil.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnSil.UseVisualStyleBackColor = false;
-            // 
-            // btnEkle
-            // 
-            this.btnEkle.BackColor = System.Drawing.SystemColors.ScrollBar;
-            this.btnEkle.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.btnEkle.Image = global::Amp12A_603_StokTakipProgramı.Properties.Resources.plus;
-            this.btnEkle.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.btnEkle.ImageKey = "plus.png";
-            this.btnEkle.Location = new System.Drawing.Point(334, 184);
-            this.btnEkle.Name = "btnEkle";
-            this.btnEkle.Size = new System.Drawing.Size(99, 39);
-            this.btnEkle.TabIndex = 11;
-            this.btnEkle.Text = "Ekle ";
-            this.btnEkle.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnEkle.UseVisualStyleBackColor = false;
             // 
             // btnYeni
             // 
@@ -227,6 +182,48 @@
             this.grdMusteriler.Size = new System.Drawing.Size(726, 150);
             this.grdMusteriler.TabIndex = 4;
             // 
+            // btnGuncelle
+            // 
+            this.btnGuncelle.BackColor = System.Drawing.SystemColors.ScrollBar;
+            this.btnGuncelle.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.btnGuncelle.Image = global::Amp12A_603_StokTakipProgramı.Properties.Resources.sync;
+            this.btnGuncelle.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.btnGuncelle.Location = new System.Drawing.Point(589, 183);
+            this.btnGuncelle.Name = "btnGuncelle";
+            this.btnGuncelle.Size = new System.Drawing.Size(110, 40);
+            this.btnGuncelle.TabIndex = 17;
+            this.btnGuncelle.Text = "Güncelle";
+            this.btnGuncelle.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnGuncelle.UseVisualStyleBackColor = false;
+            // 
+            // btnSil
+            // 
+            this.btnSil.BackColor = System.Drawing.SystemColors.ScrollBar;
+            this.btnSil.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.btnSil.Image = global::Amp12A_603_StokTakipProgramı.Properties.Resources.bin;
+            this.btnSil.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.btnSil.Location = new System.Drawing.Point(474, 183);
+            this.btnSil.Name = "btnSil";
+            this.btnSil.Size = new System.Drawing.Size(97, 40);
+            this.btnSil.TabIndex = 16;
+            this.btnSil.Text = "Sil";
+            this.btnSil.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnSil.UseVisualStyleBackColor = false;
+            // 
+            // btnEkle
+            // 
+            this.btnEkle.BackColor = System.Drawing.SystemColors.ScrollBar;
+            this.btnEkle.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.btnEkle.Image = global::Amp12A_603_StokTakipProgramı.Properties.Resources.plus;
+            this.btnEkle.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.btnEkle.Location = new System.Drawing.Point(363, 183);
+            this.btnEkle.Name = "btnEkle";
+            this.btnEkle.Size = new System.Drawing.Size(94, 40);
+            this.btnEkle.TabIndex = 15;
+            this.btnEkle.Text = "Ekle";
+            this.btnEkle.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnEkle.UseVisualStyleBackColor = false;
+            // 
             // Musteriİslemleri
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -246,9 +243,6 @@
         #endregion
 
         private System.Windows.Forms.GroupBox groupBox1;
-        private System.Windows.Forms.Button btnGuncelle;
-        private System.Windows.Forms.Button btnSil;
-        private System.Windows.Forms.Button btnEkle;
         private System.Windows.Forms.Button btnYeni;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.TextBox txtMail;
@@ -261,5 +255,8 @@
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.DataGridView grdMusteriler;
         private System.Windows.Forms.TextBox txtFirmaAdi;
+        private System.Windows.Forms.Button btnGuncelle;
+        private System.Windows.Forms.Button btnSil;
+        private System.Windows.Forms.Button btnEkle;
     }
 }

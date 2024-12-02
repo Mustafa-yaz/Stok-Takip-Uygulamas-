@@ -12,14 +12,9 @@ namespace Amp12A_603_StokTakipProgramı
 {
     public partial class Kategoriislemleri : Form
     {
-        public Kategoriislemleri()
+        private void Kategoriislemleri_Load(object sender, EventArgs e)
         {
-            InitializeComponent();
-        }
-
-        private void Form1_Load(object sender, EventArgs e)
-        {
-
+            
         }
     }
 }
