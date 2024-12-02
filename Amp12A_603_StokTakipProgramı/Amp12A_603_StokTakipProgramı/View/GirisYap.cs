@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace Amp12A_603_StokTakipProgramı
 {
-    public partial class Musteriİslemleri : Form
+    public partial class GirisYap : Form
     {
-        public Musteriİslemleri()
+        public GirisYap()
         {
             InitializeComponent();
         }

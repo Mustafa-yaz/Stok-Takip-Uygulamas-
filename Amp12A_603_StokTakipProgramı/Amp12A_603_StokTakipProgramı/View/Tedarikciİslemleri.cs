@@ -10,11 +10,16 @@ using System.Windows.Forms;
 
 namespace Amp12A_603_StokTakipProgramı
 {
-    public partial class Musteriİslemleri : Form
+    public partial class Tedarikciİslemleri : Form
     {
-        public Musteriİslemleri()
+        public Tedarikciİslemleri()
         {
             InitializeComponent();
+        }
+
+        private void Tedarikciİslemleri_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }
