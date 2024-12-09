@@ -34,6 +34,7 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
@@ -46,69 +47,77 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="GirisYap.cs">
+    <Compile Include="View\GirisYap.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="GirisYap.Designer.cs">
+    <Compile Include="View\GirisYap.Designer.cs">
       <DependentUpon>GirisYap.cs</DependentUpon>
     </Compile>
-    <Compile Include="Kategoriislemleri.cs">
+    <Compile Include="View\Kategoriislemleri.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Kategoriislemleri.Designer.cs">
+    <Compile Include="View\Kategoriislemleri.Designer.cs">
       <DependentUpon>Kategoriislemleri.cs</DependentUpon>
     </Compile>
-    <Compile Include="musteriİslemleri.cs">
+    <Compile Include="Model\Kategori.cs" />
+    <Compile Include="Model\Musteri.cs" />
+    <Compile Include="Model\Personel.cs" />
+    <Compile Include="Model\Satis_Detay.cs" />
+    <Compile Include="Model\Satis.cs" />
+    <Compile Include="Model\Tedarikci.cs" />
+    <Compile Include="Model\Urun.cs" />
+    <Compile Include="Model\Yetki.cs" />
+    <Compile Include="View\musteriİslemleri.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="musteriİslemleri.Designer.cs">
+    <Compile Include="View\musteriİslemleri.Designer.cs">
       <DependentUpon>musteriİslemleri.cs</DependentUpon>
     </Compile>
-    <Compile Include="Personelİslemleri.cs">
+    <Compile Include="View\Personelİslemleri.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Personelİslemleri.Designer.cs">
+    <Compile Include="View\Personelİslemleri.Designer.cs">
       <DependentUpon>Personelİslemleri.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
-    <Compile Include="ProjeAnasayfa.cs">
+    <Compile Include="View\ProjeAnasayfa.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="ProjeAnasayfa.Designer.cs">
+    <Compile Include="View\ProjeAnasayfa.Designer.cs">
       <DependentUpon>ProjeAnasayfa.cs</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="SatısDetayları.cs">
+    <Compile Include="View\SatısDetayları.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="SatısDetayları.Designer.cs">
+    <Compile Include="View\SatısDetayları.Designer.cs">
       <DependentUpon>SatısDetayları.cs</DependentUpon>
     </Compile>
-    <Compile Include="Tedarikciİslemleri.cs">
+    <Compile Include="View\Tedarikciİslemleri.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Tedarikciİslemleri.Designer.cs">
+    <Compile Include="View\Tedarikciİslemleri.Designer.cs">
       <DependentUpon>Tedarikciİslemleri.cs</DependentUpon>
     </Compile>
-    <Compile Include="Ürünislemleri.cs">
+    <Compile Include="View\Ürünislemleri.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Ürünislemleri.Designer.cs">
+    <Compile Include="View\Ürünislemleri.Designer.cs">
       <DependentUpon>Ürünislemleri.cs</DependentUpon>
     </Compile>
-    <EmbeddedResource Include="GirisYap.resx">
+    <EmbeddedResource Include="View\GirisYap.resx">
       <DependentUpon>GirisYap.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Kategoriislemleri.resx">
+    <EmbeddedResource Include="View\Kategoriislemleri.resx">
       <DependentUpon>Kategoriislemleri.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="musteriİslemleri.resx">
+    <EmbeddedResource Include="View\musteriİslemleri.resx">
       <DependentUpon>musteriİslemleri.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Personelİslemleri.resx">
+    <EmbeddedResource Include="View\Personelİslemleri.resx">
       <DependentUpon>Personelİslemleri.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="ProjeAnasayfa.resx">
+    <EmbeddedResource Include="View\ProjeAnasayfa.resx">
       <DependentUpon>ProjeAnasayfa.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
@@ -121,13 +130,13 @@
       <DependentUpon>Resources.resx</DependentUpon>
       <DesignTime>True</DesignTime>
     </Compile>
-    <EmbeddedResource Include="SatısDetayları.resx">
+    <EmbeddedResource Include="View\SatısDetayları.resx">
       <DependentUpon>SatısDetayları.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Tedarikciİslemleri.resx">
+    <EmbeddedResource Include="View\Tedarikciİslemleri.resx">
       <DependentUpon>Tedarikciİslemleri.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Ürünislemleri.resx">
+    <EmbeddedResource Include="View\Ürünislemleri.resx">
       <DependentUpon>Ürünislemleri.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="Properties\Settings.settings">
